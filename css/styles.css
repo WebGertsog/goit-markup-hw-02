@@ -144,11 +144,12 @@ text-transform: uppercase;
         /* --PORTFOLIO-- */
 
 .buttons-filter{
+    font-family: inherit;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    /text-align: center;
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: var(--second-bg-color);
@@ -161,6 +162,9 @@ text-transform: uppercase;
     background-color: var(--accent-text-color);
 }
 
+.link{
+    text-decoration: none;
+}
 .products-title{
     font-weight: 700;
     font-size: 18px;
@@ -168,7 +172,15 @@ text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
+.products-text{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
 /* FOOTER */
+
 .footer{
     background-color: var(--accent-bg-color);
 }
